@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+
 *{
   text-align: center;
-  
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 .container{
@@ -8,5 +13,6 @@
 }
 
 body{
-  background-image: linear-gradient(to right top, #ff5e5e, #ff824e, #ffa842, #ffce41, #fff453);
+  background: rgb(109,110,109);
+background: linear-gradient(90deg, rgba(109,110,109,1) 0%, rgba(109,110,109,1) 35%, rgba(109,110,109,1) 100%);
 }

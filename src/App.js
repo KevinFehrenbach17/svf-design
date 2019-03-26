@@ -10,8 +10,8 @@ import Navbar from "./components/Navbar.js"
 import Artwork from "./components/Artwork.js"
 import Contact from "./components/Contact.js"
 import Request from "./components/Request.js"
-import Artone from "./components/Artone.js"
 
+// import Artone from "./components/Artone.js"
 // import Arttwo from "./components/Arttwo.js"
 // import Artthree from "./components/Artthree.js"
 
@@ -32,8 +32,8 @@ class App extends Component {
 
           {/* Put react router stuff here */}
 
-          <Artone />
-          {/* <Arttwo />
+          {/* <Artone />
+          <Arttwo />
           <Artthree /> */}
 
         </header>

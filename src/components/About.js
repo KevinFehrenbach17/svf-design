@@ -15,15 +15,14 @@ export class About extends Component {
         <img src='https://pkimgcdn.peekyou.com/fd14324e4a2f0645b40da226f7697b68.jpeg' className="proPic"/>
         <div className="profile">
 
-    <p> Lorem ipsum dolor amet readymade taiyaki distillery, 
-    neutra salvia organic squid 3 wolf moon irony intelligentsia franzen yr microdosing selfies occupy. 
-    Kale chips knausgaard you probably haven't heard of them actually mustache. Pitchfork vinyl succulents portland 
-    sriracha aesthetic ennui disrupt cray snackwave. Edison bulb pour-over man braid try-hard hammock shoreditch 
-    everyday carry unicorn vegan.
-    Intelligentsia 3 wolf moon keffiyeh, austin drinking vinegar artisan affogato. 
-    Williamsburg hammock af aesthetic dreamcatcher. Mumblecore subway tile church-key try-hard, 
-    seitan chicharrones celiac. Poutine raw denim vape taiyaki, waistcoat shoreditch dreamcatcher pok pok.
-    
+    <p> I have spent my summers at our cottage on Lake Leelanau since birth.  
+      The amazing beauty of this area has always fed my soul.  When I started painting, I naturally gravitated toward 
+      painting landscapes of Leelanau. I also enjoy painting murals.  My life long dream of becoming a full time 
+      resident of Leelanau County came true in 2008.  Now, my inspiration is always at my doorstep. 
+    </p>
+
+    <p>
+    (Gicleé prints are available for some of the paintings that are marked .)
     </p>
         </div>
 

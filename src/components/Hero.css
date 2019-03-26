@@ -11,10 +11,21 @@
 
 h1{
     color: white;
-    text-shadow: 3px 3px #333;
+    
 }
 
-.heroImg{
-    width:100%;
-    padding-top: 3rem;
+
+.hero { 
+    border:2px solid white;
 }
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 14rem;
+    margin-bottom: 3rem;
+  }

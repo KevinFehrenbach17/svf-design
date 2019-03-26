@@ -4,22 +4,41 @@
     margin: -1.5rem;
 }
 .navBar{
-    color: white;
-}
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #9C6E8C;
+        float: left;
+        text-align: left;
+        padding-bottom: 2rem;
+        border-bottom: 1px double white;
+        
+    }
+
+    .double{
+        border-bottom: 1px double white;
+        margin-bottom: -1.5rem;
+    }
+.toph1{
+    text-align: right;
+    margin-right: 0.6rem;
+}    
+
 
 ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #E89C85;
+        background-color: #9C6E8C;
 }
 
 li {
     float: right;
     
     margin-right: 1rem;
-    padding: 0.5rem;
+    
   }
   
 li a{

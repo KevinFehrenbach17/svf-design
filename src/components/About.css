@@ -1,8 +1,9 @@
 h1{
     padding-top: 4rem;
+    
 }
 .aboutMe{
-    background-image: linear-gradient(to right top, #fe9468, #ffa465, #ffb565, #ffc667, #fcd76d);
+    background-color: #9C6E8C;
     margin: 2rem;
     border-radius: 17px;
     border: 1px solid;
