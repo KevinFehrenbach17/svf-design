@@ -1,0 +1,22 @@
+h1{
+    padding-top: 4rem;
+}
+.aboutMe{
+    background-image: linear-gradient(to right top, #fe9468, #ffa465, #ffb565, #ffc667, #fcd76d);
+    margin: 2rem;
+    border-radius: 17px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px #333;
+}
+.proPic{
+    border-radius: 50%;
+}
+
+.profile{
+    display: grid;
+    
+}
+p{
+    padding: 1rem;
+}

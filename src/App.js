@@ -1,24 +1,41 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+
+
+import Hero from './components/Hero.js'
+import About from './components/About.js'
+import Navbar from "./components/Navbar.js"
+import Artwork from "./components/Artwork.js"
+import Contact from "./components/Contact.js"
+import Request from "./components/Request.js"
+import Artone from "./components/Artone.js"
+
+// import Arttwo from "./components/Arttwo.js"
+// import Artthree from "./components/Artthree.js"
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="container" >
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+         
+          <Navbar />
+          <Hero />
+          <About />
+          <Artwork />
+          <Contact />
+          <Request />
+
+          {/* Put react router stuff here */}
+
+          <Artone />
+          {/* <Arttwo />
+          <Artthree /> */}
+
         </header>
       </div>
     );

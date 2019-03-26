@@ -1,0 +1,10 @@
+.art{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0.5rem;
+}
+img{
+    margin-top: 1rem;
+}
