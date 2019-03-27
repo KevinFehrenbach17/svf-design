@@ -13,7 +13,7 @@ import './Artwork.css';
 export class Artwork extends Component {
   render() {
     return (
-      <div>
+      <div id = "artworks">
         <h2>My Work</h2>
         <div className="art">
             

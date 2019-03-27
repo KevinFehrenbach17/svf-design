@@ -34,7 +34,7 @@ export class Artone extends Component {
 
         <NavPage />
 
-        <h2>Art 1</h2>
+        <h2>LandScape</h2>
         <div className="pics">
             
         <div className="picInfo">

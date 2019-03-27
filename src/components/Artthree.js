@@ -12,7 +12,7 @@ export class Artthree extends Component {
     return (
       <div className="wrapper" >
         <NavPage />
-        <h2>Art 1</h2>
+        <h2>Still Life</h2>
           <div className="pics">
             <div className="picInfo">
                 <img src = {SerenityTea} className ="artPic"></img>

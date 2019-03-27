@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { Link } from 'react-router-dom'
+
 // import Logo from './sfvlogo.png';
 
 import './Navbar.css';
@@ -13,13 +15,13 @@ export class Navbar extends Component {
           <h1 className="toph1">Susan Veenstra Fehrenbach</h1>
         {/* <img src={Logo} className="logo"/> */}
         <li>
-          <a href="#">Contact Me</a>
+          <a href="#contact">Contact Me</a>
         </li>
         <li>
-          <a href="#">Artwork</a>
+          <a href="#artworks">Artwork</a>
         </li>
         <li>
-          <a href="#">About Me</a>
+          <a href="#about">About Me</a>
         </li>
         <li>
           <a href="#">Home</a>

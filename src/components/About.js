@@ -9,7 +9,7 @@ import './About.css';
 export class About extends Component {
   render() {
     return (
-      <div class="aboutMe">
+      <div class="aboutMe" id="about">
         <h2>About Me</h2>
         
         <img src='https://pkimgcdn.peekyou.com/fd14324e4a2f0645b40da226f7697b68.jpeg' className="proPic"/>

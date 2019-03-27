@@ -11,16 +11,16 @@ export class NavPage extends Component {
           <h1 className="toph1">Susan Veenstra Fehrenbach</h1>
         {/* <img src={Logo} className="logo"/> */}
         <li>
-          <a href="#">Contact Me</a>
+        <Link to="/#contact">Contact Me</Link>
         </li>
         <li>
-          <a href="#">Artwork</a>
+        <Link to="/#artworks">Artwork</Link>
         </li>
         <li>
-          <a href="#">About Me</a>
+        <Link to="/about">About Me</Link>
         </li>
         <li>
-        <Link to="/" >Home</Link>
+        <Link to="/">Home</Link>
           
         </li>
       </ul>

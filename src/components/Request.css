@@ -1,4 +1,6 @@
-
+.request{
+    width: 100%;
+}
 
 .wrapperR {
     display: flex;
@@ -6,8 +8,8 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    background: #9C6E8C;
-    width: 60%;
+    
+    width: 70%;
     padding: 4rem;
    
    
