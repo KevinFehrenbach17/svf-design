@@ -1,33 +1,25 @@
 import React, { Component } from 'react'
 
+import NavPage from "./NavPage.js"
+import Request from "./Request.js"
+
+import SerenityTea from './imgs/SerenityTea.jpg'
+
 import './Artone.css';
 
 export class Artthree extends Component {
   render() {
     return (
-      <div>
+      <div className="wrapper" >
+        <NavPage />
         <h2>Art 1</h2>
           <div className="pics">
-          <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
-            <img src = "http://via.placeholder.com/260x170"></img>
+            <div className="picInfo">
+                <img src = {SerenityTea} className ="artPic"></img>
+                <p>title, print, size</p>
+            </div>
           </div>
-
+          <Request />
       </div>
     )
   }

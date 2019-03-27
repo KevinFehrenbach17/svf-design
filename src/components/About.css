@@ -12,6 +12,7 @@ h1{
 }
 .proPic{
     border-radius: 50%;
+    border: solid 2px white;
 }
 
 .profile{

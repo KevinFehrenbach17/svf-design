@@ -18,7 +18,7 @@ export class Request extends Component {
               <input type="text" name="name" />
             Email:
               <input type="text" name="email" /><br></br>
-            Body:
+            Print name and Size:
               
                 <input type="text" name="body" size="30" className="eBody"/>
  
