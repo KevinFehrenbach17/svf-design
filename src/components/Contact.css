@@ -17,9 +17,12 @@
     margin-right: auto;
     margin-left: auto;
 }
+.text-p{
+    font-size: 1rem;
+}
 
 i {
-    color: #de49fc;
+    color: #9C6E8C;
     cursor: pointer;
 }
 i :hover{

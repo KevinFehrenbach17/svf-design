@@ -9,8 +9,151 @@
     justify-content: space-around;
 }
 
+.main-img{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+/* Grid stuff for the thumbnails */
+.imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 .artPic{
 width: 260px;
 height: 170px;
 border: solid 2px white; 
+}
+.baker{
+    width:256px;
+    height: 201px;
+    border: solid 2px white; 
+}
+.balloon{
+    width: 307.5px;
+    height: 150.25px;
+    border: solid 2px white; 
+}
+.boat{
+    width: 256.75px;
+    height: 191.25px;
+    border: solid 2px white; 
+}
+.moose{
+    width: 277px;
+    height: 139;
+    border: solid 2px white; 
+}
+.eBirch{
+    width: 293.5px;
+    height: 234px;
+    border: solid 2px white; 
+}
+.fBirch{
+    width: 256px;
+    height: 252px; 
+    border: solid 2px white; 
+}
+.fishTown{
+    width: 256px;
+    height: 203px;   
+    border: solid 2px white; 
+}
+.heroPic{
+    width: 299px;
+    height: 223px;  
+    border: solid 2px white; 
+}
+.hidd{
+    width: 256px;
+    height: 253px;  
+    border: solid 2px white; 
+}
+.leeFarmFall{
+    width: 256px;
+    height: 253.75px;  
+    border: solid 2px white; 
+}
+.lilFarm{
+    width: 256px;
+    height: 198px;  
+    border: solid 2px white;  
+}
+.lupForest{
+    width: 316.5px;
+    height: 198px;   
+    border: solid 2px white; 
+}
+.barn{
+    width: 252.8px;
+    height: 256px;   
+    border: solid 2px white; 
+}
+.penView{
+    width: 286.5px;
+    height: 213.5px;   
+    border: solid 2px white; 
+}
+.relax{
+    width: 257.25px;
+    height: 191px;   
+    border: solid 2px white; 
+}
+.ripp{
+    width: 192px;
+    height: 256px;   
+    border: solid 2px white;  
+}
+.sun{
+    width: 205.5px;
+    height: 256px;   
+    border: solid 2px white; 
+}
+.sweet{
+    width: 252.8px;
+    height: 256px;   
+    border: solid 2px white; 
+}
+.chairs{
+    width: 256px;
+    height: 212.75px;
+    border: solid 2px white; 
+}
+.viewK{
+    width: 404.6px;
+    height: 136.5px;
+    border: solid 2px white; 
+}
+.bouqet{
+    width: 256px;
+    height: 255.2px;
+    border: solid 2px white; 
+}
+.mon{
+    width: 204.75px;
+    height: 256px;
+    border: solid 2px white; 
+}
+.mom{
+    width: 255.75px;
+    height: 256px;
+    border: solid 2px white;    
+}
+.poppies{
+    width: 217px;
+    height: 224px;
+    border: solid 2px white;    
+}
+.poppiesPlus{
+    width: 257.25px;
+    height: 191px;
+    border: solid 2px white;    
+}
+.tea{
+    width: 208px;
+    height: 277px;
+    border: solid 2px white;   
 }

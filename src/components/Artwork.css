@@ -5,6 +5,9 @@
     justify-content: space-between;
     margin: 0.5rem;
 }
+.art a{
+    color: white;
+}
 img{
     margin-top: 1rem;
     border:10px solid white;

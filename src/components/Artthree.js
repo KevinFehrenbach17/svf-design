@@ -13,10 +13,12 @@ export class Artthree extends Component {
       <div className="wrapper" >
         <NavPage />
         <h2>Still Life</h2>
+        <p>*Gilcleé prints are available and can be ordered by any size you wish, up to the size of the original painting.</p>
+        <p>Items with "sold" means the original painting is unavalible</p>
           <div className="pics">
             <div className="picInfo">
-                <img src = {SerenityTea} className ="artPic"></img>
-                <p>title, print, size</p>
+                <a href={SerenityTea}><img src = {SerenityTea} className ="tea"></img></a>
+                <p>Serenity Tea, 9”x12”, $150</p>
             </div>
           </div>
           <Request />

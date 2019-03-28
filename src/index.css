@@ -1,3 +1,10 @@
 html {
     scroll-behavior: smooth;
   }
+footer{
+  color: white;
+  background-color: #9C6E8C;
+}
+footer a{
+  color: white;
+}

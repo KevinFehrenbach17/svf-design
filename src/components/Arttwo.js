@@ -21,36 +21,38 @@ export class Arttwo extends Component {
       <div className="wrapper" >
       <NavPage />
       <h2>Florals</h2>
+          <p>*Gilcleé prints are available and can be ordered by any size you wish, up to the size of the original painting.</p>
+          <p>Items with "sold" means the original painting is unavalible</p>
       <div className="pics">
           
       <div className="picInfo">
-            <img src = {Bouqet} className ="artPic"></img>
-              <p>title, print, size</p>
+            <a href={Bouqet}><img src = {Bouqet} className ="bouqet"></img></a>
+              <p>Bountiful Bouquet, 12”x12”, sold</p>
             </div>
 
             <div className="picInfo">
-              <img src = {Hydrangeas} className ="artPic"></img>
-              <p>title, print, size</p>
+              <a href={Hydrangeas}><img src = {Hydrangeas} className ="bouqet"></img></a>
+              <p>Hydrangeas, 24”x24”, $350</p>
             </div>
 
             <div className="picInfo">
-            <img src = {Mon} className ="artPic"></img>
-            <p>title, print, size</p>
+            <a href={Mon}><img src = {Mon} className ="mon"></img></a>
+            <p>Monarchs and Poppies, 9X12, sold</p>
             </div>
 
             <div className="picInfo">
-            <img src = {Mom} className ="artPic"></img>
-            <p>title, print, size</p>
+            <a href={Mom}><img src = {Mom} className ="mom"></img></a>
+            <p>My Mother’s Garden, 20”x20”, $295</p>
             </div>
 
             <div className="picInfo">
-            <img src = {Poppies} className ="artPic"></img>
-            <p>title, print, size</p>
+            <a href={Poppies}><img src = {Poppies} className ="poppies"></img></a>
+            <p>Poppies, 20”x20”, $385</p>
             </div>
 
             <div className="picInfo">
-            <img src = {PoppiesPlus} className ="artPic"></img>
-            <p>title, print, size</p>
+            <a href={PoppiesPlus}><img src = {PoppiesPlus} className ="poppiesPlus"></img></a>
+            <p>Poppies and Lace II, 16”20”, $325</p>
             </div>
 
 

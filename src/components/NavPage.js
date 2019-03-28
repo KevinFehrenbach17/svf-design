@@ -17,13 +17,14 @@ export class NavPage extends Component {
         <Link to="/#artworks">Artwork</Link>
         </li>
         <li>
-        <Link to="/about">About Me</Link>
+        <Link to="/aboutç">About Me</Link>
         </li>
         <li>
         <Link to="/">Home</Link>
           
         </li>
       </ul>
+    
         <div className="double"></div>
         </nav>
 

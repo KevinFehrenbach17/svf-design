@@ -17,16 +17,22 @@ export class Artwork extends Component {
         <h2>My Work</h2>
         <div className="art">
             
+            
             <Link to="/landscape" >LandScape</Link>
             <img src = {ImgOne} className="picOne"></img>
             
-
-            <Link to="/florals" >LandScape</Link>
+            
+            
+            
+            <Link to="/florals" >Floral</Link>
             <img src = {ImgTwo} className="picTwo"></img>
             
-
-            <Link to="/stilllife" >LandScape</Link>
+            
+            
+            
+            <Link to="/stilllife" >Still Life</Link>
             <img src = {ImgThree} className="picThree"></img>
+            
             
             
         </div>
