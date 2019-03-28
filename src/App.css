@@ -16,3 +16,10 @@ body{
   background: rgb(109,110,109);
 background: linear-gradient(90deg, rgba(109,110,109,1) 0%, rgba(109,110,109,1) 35%, rgba(109,110,109,1) 100%);
 }
+
+@media (max-width: 600px){
+  p{
+    font-size: 2.25rem;
+  }
+}
+

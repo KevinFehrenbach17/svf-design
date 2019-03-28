@@ -10,7 +10,7 @@ import About from './components/About.js'
 import Navbar from "./components/Navbar.js"
 import Artwork from "./components/Artwork.js"
 import Contact from "./components/Contact.js"
-import Request from "./components/Request.js"
+
 
 import Artone from "./components/Artone.js"
 import Arttwo from "./components/Arttwo.js"
@@ -31,7 +31,7 @@ class App extends Component {
               <About />
               <Artwork /> {/* should be 1 landscape, 2 florals, 3 stilllifes*/}
               <Contact />
-              <Request />
+              
             </React.Fragment>
           )} />
 

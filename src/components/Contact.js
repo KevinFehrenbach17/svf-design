@@ -10,9 +10,8 @@ export class Contact extends Component {
       <div>
               <div  id = "contact">
         <h2>Contact Me</h2>
-                <p className="text-p">For more information about my prints, click the envelope, or email me at:
-                  susan@svfdesign.com
-                </p>
+                <p className="text-p">For more information about my prints, click the envelope, or email me at:</p>
+                <h4>susan@svfdesign.com</h4>
             <div className="paragraph">
             </div>
             

@@ -18,19 +18,19 @@ export class Artwork extends Component {
         <div className="art">
             
             
-            <Link to="/landscape" >LandScape</Link>
+            <Link to="/landscape" className="linkA">LandScape</Link>
             <img src = {ImgOne} className="picOne"></img>
             
             
             
             
-            <Link to="/florals" >Floral</Link>
+            <Link to="/florals" className="linkB">Floral</Link>
             <img src = {ImgTwo} className="picTwo"></img>
             
             
             
             
-            <Link to="/stilllife" >Still Life</Link>
+            <Link to="/stilllife" className="linkC">Still Life</Link>
             <img src = {ImgThree} className="picThree"></img>
             
             
