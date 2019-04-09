@@ -7,8 +7,11 @@ export class Request extends Component {
     return (
 <div  id = "request">
       
-        <h2>Request About a Print</h2>
+        <h2>Request For a Print</h2>
+        <p>*Gilcleé prints are available and can be ordered by any size you wish, up to the size of the original painting.</p>
         
+
+
         <div className = "wrapperR">
           
         

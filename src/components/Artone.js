@@ -38,9 +38,9 @@ export class Artone extends Component {
 
         <NavPage />
 
-        <h2>LandScape</h2>
-          <p>*Gilcleé prints are available and can be ordered by any size you wish, up to the size of the original painting.</p>
-          <p>Items with "sold" means the original painting is unavalible for purchase, print may be available</p>
+        <h2>LandScapes</h2>
+          
+          
         <div className="pics">
 
 

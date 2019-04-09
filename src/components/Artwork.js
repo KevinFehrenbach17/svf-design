@@ -24,13 +24,13 @@ export class Artwork extends Component {
             
             
             
-            <Link to="/florals" className="linkB">Floral</Link>
+            <Link to="/florals" className="linkB">Florals</Link>
             <img src = {ImgTwo} className="picTwo"></img>
             
             
             
             
-            <Link to="/stilllife" className="linkC">Still Life</Link>
+            <Link to="/stilllife" className="linkC">And More</Link>
             <img src = {ImgThree} className="picThree"></img>
             
             
