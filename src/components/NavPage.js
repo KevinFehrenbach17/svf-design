@@ -17,7 +17,7 @@ export class NavPage extends Component {
         <Link to="/#artworks">Artwork</Link>
         </li>
         <li>
-        <Link to="/aboutç">About Me</Link>
+        <Link to="/#about">About Me</Link>
         </li>
         <li>
         <Link to="/">Home</Link>

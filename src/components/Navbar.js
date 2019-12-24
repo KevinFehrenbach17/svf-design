@@ -24,7 +24,7 @@ export class Navbar extends Component {
           <a href="#about">About Me</a>
         </li>
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
       </ul>
         <div className="double"></div>
