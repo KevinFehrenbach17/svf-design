@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import NavPage from "./NavPage.js"
 import Request from "./Request.js"
+import Gallary from "./Gallary.js"
 
 import Bakers from './imgs/BakersBeach.jpg'
 import Balloon from './imgs/BalloonOverFarmland.jpg'
@@ -37,6 +38,8 @@ export class Artone extends Component {
       <div className="wrapper" >
 
         <NavPage />
+
+        <Gallary />
 
         <h2>LandScapes</h2>
           
@@ -118,17 +121,17 @@ export class Artone extends Component {
 
               <div className="picInfo">
                 <a href={Relax}><img src = {Relax} className ="relax"></img></a>
-                <p>Relaxing on Lake Leelanau, 18”x24”, sold*</p>
+                <p>Relaxing on Lake Leelanau, 18”x24”, sold *</p>
               </div>
 
               <div className="picInfo">
               <a href={Ripples}><img src = {Ripples} className ="ripp"></img></a>
-              <p>Ripples on Lake Leelanau, 20”x24”, sold*</p>
+              <p>Ripples on Lake Leelanau, 20”x24”, sold *</p>
               </div>
 
               <div className="picInfo">
               <a href={Sun}><img src = {Sun} className ="sun"></img></a>
-              <p>Sunset Pines, each panel is 9”x27”, $485*</p>
+              <p>Sunset Pines, each panel is 9”x27”, $485 *</p>
               </div>
 
               <div className="picInfo">

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import NavPage from "./NavPage.js"
 import Request from "./Request.js"
+import GallaryB from "./GallaryB.js"
 
 import Bouqet from './imgs/BountifulBouquet.jpg'
 import Hydrangeas from './imgs/Hydrangeas.jpg'
@@ -21,7 +22,8 @@ export class Arttwo extends Component {
       <div className="wrapper" >
       <NavPage />
       <h2>Florals</h2>
-          
+
+      <GallaryB />    
           
       <div className="pics">
           

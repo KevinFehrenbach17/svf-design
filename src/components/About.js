@@ -21,9 +21,6 @@ export class About extends Component {
       resident of Leelanau County came true in 2008.  Now, my inspiration is always at my doorstep. 
     </p>
 
-    <p>
-    (Gicleé prints are available for paintings that are marked with an * .)
-    </p>
         </div>
 
         

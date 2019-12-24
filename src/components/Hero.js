@@ -1,18 +1,13 @@
 import React, { Component } from 'react'
 
-import HeroImg from './imgs/Hero.jpg';
+import HeroGallary from './HeroGallary'
 
 import './Hero.css';
 
 export class Hero extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="center">
-        <img src={HeroImg} className="hero"/>
-        </div>
-        
-      </div>
+      <HeroGallary />
     )
   }
 }
